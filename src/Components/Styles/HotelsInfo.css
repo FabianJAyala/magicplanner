@@ -1,0 +1,56 @@
+.hotel-info {
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+    background-attachment: fixed;
+    height: 100vh;
+}
+
+.hotel-info h1 {
+    padding: 0% 15% 0% 15%;
+}
+
+.hotel-types {
+    background-repeat: repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    padding: 5% 10% 5% 10%;
+}
+
+.hotel-benefits {
+    padding: 5% 20% 5% 20%;
+}
+
+.nav-tabs .nav-item.show, .nav-tabs .nav-link.active {
+    color: #ffffff;
+    background-color: #122151;
+}
+
+.nav-tabs .nav-link {
+    color: #122151;
+    background-color: #eaf3fe;
+    font-weight: 600;
+    border-bottom: none;
+}
+
+.nav-tabs .nav-link:hover {
+    color: #ba85b2;
+    font-weight: 700;
+}
+
+@media (max-width: 768px) {
+    .hotel-info {
+        background-size: cover;
+        background-attachment: local;
+    }
+    .hotel-info h1 {
+        padding: 0% 5% 0% 5%;
+    }
+    .hotel-types {
+        padding: 5% 5% 5% 5%;
+    }
+    .hotel-benefits {
+        padding: 5% 5% 2% 5%;
+    }
+}

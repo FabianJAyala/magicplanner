@@ -1,0 +1,25 @@
+.divider-background {
+    background: #122151;
+    color: white;
+    padding: 1% 10% 1% 10%;
+}
+
+.divider-btn {
+    background: #717dcb;
+    border-color: #717dcb;
+    border-radius: 10px;
+    padding: 10px 10px;
+}
+
+.divider-btn:hover {
+    background: #505b87;
+    border-color: #505b87;
+}
+
+@media (max-width: 768px) {
+
+    .divider-background {
+        padding: 5% 5% 5% 5%;
+    }
+
+}

@@ -1,0 +1,60 @@
+.universal-park-info {
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+    background-attachment: fixed;
+    height: 100vh;
+}
+
+.universal-park-info h1 {
+    padding: 0% 15% 0% 15%;
+}
+
+.universal-park-rides {
+    background-repeat: repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 5% 10% 5% 10%;
+}
+
+.universal-park-map {
+    padding: 5% 15% 0% 15%;
+}
+
+.universal-clouds-row {
+    background-image: url("../../Images/Clouds-Draw.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 25vh;
+}
+
+.universal-park-restaurants {
+    padding: 0% 15% 5% 15%;
+}
+
+@media (max-width: 768px) {
+    .universal-park-info {
+        background-size: cover;
+        background-attachment: local;
+    }
+    .universal-park-info h1 {
+        padding: 0% 5% 0% 5%;
+    }
+    .universal-park-rides {
+        background-size: contain;
+        background-attachment: local;
+        padding: 5% 5% 5% 5%;
+    }
+    .universal-park-map{
+        padding: 5% 5% 0% 5%;
+    }
+    .universal-clouds-row {
+        background-size: cover;
+        background-position: center;
+        height: 12vh;
+    }
+    .universal-park-restaurants {
+        padding: 5% 5% 5% 5%;
+    }
+}

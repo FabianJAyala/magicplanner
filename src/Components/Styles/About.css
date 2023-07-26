@@ -1,0 +1,23 @@
+.col-box {
+    border-right: 1px solid #122151;
+}
+
+.certifications{
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+@media (max-width: 768px) {
+
+    .reasons-boxes {
+        display: flex;
+        flex-direction: row !important;
+    }
+    .col-box {
+        border-right: 0px;
+        margin-bottom: 5%;
+    }
+    .certifications {
+        padding: 0;
+    }
+}

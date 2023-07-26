@@ -1,0 +1,12 @@
+.custom-footer {
+    background-color: #122151;
+    color: #FFFFFF;
+    padding: 1% 5% 1% 5%;
+}
+
+
+@media (max-width: 768px) {
+    .custom-footer {
+        padding: 3% 10% 3% 10%;
+    }
+}

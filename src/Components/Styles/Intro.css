@@ -1,0 +1,41 @@
+.intro-background-image {
+    background-image: url("../../Images/Parks.jpg");
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position:center;
+    background-attachment: fixed;
+}
+
+.intro-card {
+    align-content: center;
+    max-width: 40%;
+    padding: 3% 3% 3% 3%;
+    margin: 8% 0% 8% 10%;
+    background-color: #bfc3db;
+    border-radius: 16px;
+}
+
+.custom-btn {
+    background: #122151;
+    border-color: #122151;
+    color: #ffffff;
+    border-radius: 10px;
+    padding: 10px 10px;
+    margin-top: 10px;
+}
+
+.custom-btn:hover {
+    background: #505b87;
+    border-color: #505b87;
+}
+
+@media (max-width: 768px) {
+    .intro-background-image {
+        background-attachment: local;
+    }
+    .intro-card {
+        max-width: 100%;
+        margin: 20% 5% 20% 5%;
+        padding: 10% 5% 10% 5%;
+    }
+}

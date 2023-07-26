@@ -1,0 +1,89 @@
+.custom-range {
+    appearance: none;
+    -webkit-appearance: none;
+    width: 100%;
+    height: 8px;
+    border-radius: 5px;
+    background: linear-gradient(to right, #ba85b2, #122151);
+    outline: none;
+    opacity: 0.7;
+    transition: opacity 0.2s;
+}
+
+.custom-range::-webkit-slider-thumb {
+    appearance: none;
+    -webkit-appearance: none;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: #ba85b2;
+    cursor: pointer;
+}
+
+.custom-range::-moz-range-thumb {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: #ba85b2;
+    cursor: pointer;
+}
+
+.select-btn {
+    background: #122151;
+    border-color: #122151;
+    color: #ffffff;
+    border-radius: 10px;
+    padding: 10px 10px;
+}
+
+.select-btn:hover {
+    background: #505b87;
+    border-color: #505b87;
+}
+
+.selected-btn {
+  background: #ba85b2;
+  border-color: #ba85b2;
+  color: #ffffff;
+  border-radius: 10px;
+  padding: 10px 10px;
+}
+
+.selected-btn:hover {
+  background: #af5fa3;
+  border-color: #af5fa3;
+}
+
+.people-quantity, .disney-park-selection, .quotation-result {
+  background-color: #eaf3fe;
+  padding: 2% 10% 2% 10%;
+  justify-content: center;
+}
+
+.hotel-type, .universal-park-selection {
+  padding: 2% 10% 2% 10%;
+  justify-content: center;
+}
+
+@media (max-width: 768px) {
+    .custom-range {
+      height: 5px;
+    }
+
+    .custom-range::-webkit-slider-thumb {
+      width: 15px;
+      height: 15px;
+    }
+
+    .custom-range::-moz-range-thumb {
+      width: 15px;
+    }
+
+    .people-quantity, .disney-park-selection, .quotation-result {
+      padding: 2% 5% 2% 5%;
+    }
+
+    .hotel-type, .universal-park-selection {
+      padding: 2% 5% 2% 5;
+    }
+}

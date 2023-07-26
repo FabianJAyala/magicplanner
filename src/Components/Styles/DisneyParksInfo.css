@@ -1,0 +1,92 @@
+.disney-park-info {
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+    background-attachment: fixed;
+    height: 100vh;
+}
+
+.disney-park-info h1 {
+    padding: 0% 15% 0% 15%;
+}
+
+.disney-park-rides {
+    background-repeat: repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 5% 10% 5% 10%;
+}
+
+.disney-park-map {
+    background-repeat: repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 5% 15% 5% 15%;
+}
+
+.disney-park-shows {
+    background-repeat: repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    padding: 5% 10% 5% 10%;
+}
+
+.disney-park-restaurants {
+    padding: 5% 20% 0% 20%;
+}
+
+.disney-general-park-info {
+    background-color: #122151;
+    color: #ffffff;
+    padding: 0% 10% 5% 10%;
+}
+
+.disney-clouds-row {
+    background-image: url("../../Images/Clouds-Draw.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 25vh;
+}
+
+.disney-general-park-info li {
+    padding-bottom: 5%;
+}
+
+
+@media (max-width: 768px) {
+    .disney-park-info {
+        background-size: cover;
+        background-attachment: local;
+    }
+    .disney-park-info h1 {
+        padding: 0% 5% 0% 5%;
+    }
+    .disney-park-rides {
+        background-size: contain;
+        background-attachment: local;
+        padding: 5% 5% 5% 5%;
+    }
+    .disney-park-map{
+        background-size: contain;
+        background-attachment: local;
+        padding: 5% 5% 5% 5%;
+    }
+    .disney-park-shows {
+        background-size: contain;
+        background-attachment: local;
+        padding: 5% 5% 5% 5%;
+    }
+    .disney-park-restaurants {
+        padding: 5% 5% 0% 5%;
+    }
+    .disney-general-park-info {
+        padding: 5% 5% 5% 0%;
+    }
+    .disney-clouds-row {
+        background-size: cover;
+        background-position: center;
+        height: 12vh;
+    }
+}

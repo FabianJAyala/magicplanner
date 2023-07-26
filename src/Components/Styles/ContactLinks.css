@@ -1,0 +1,27 @@
+.contact-box {
+    background-color: #e3cee0;
+    border-style: solid;
+    border-color: #ffffff;
+    border-width: 5px;
+    border-radius: 16px;
+    padding: 3% 2% 3% 2%;
+    margin: auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    font-weight: bold;
+}
+
+@media (max-width: 768px) {
+
+    .contact-box {
+        padding: 8% 5% 8% 5%;
+        margin-bottom: 5%;
+    }
+}
+
+
